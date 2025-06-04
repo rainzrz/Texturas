@@ -2,7 +2,7 @@
 
 Este repositório é baseado na estrutura do projeto PGCCHIB - Processamento Gráfico, fornecido pela disciplina de Processamento Gráfico. 
 
-![image](https://github.com/user-attachments/assets/821b1abd-429a-4761-8e0c-7a5c8ec77d81)
+![image](https://github.com/user-attachments/assets/717feb9f-9663-4c2e-8a27-d2abd295ab96)
 
 ## 🛠️ Como compilar e rodar o projeto (PowerShell - Windows)
 Se quiser compilar e rodar o projeto do zero, siga os comandos abaixo:
