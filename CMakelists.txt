@@ -33,6 +33,7 @@ include_directories(${CMAKE_SOURCE_DIR}/common)
 include_directories(${CMAKE_SOURCE_DIR}/common/M5-6)
 include_directories(${CMAKE_SOURCE_DIR}/include/glad)
 include_directories(${glm_SOURCE_DIR})
+include_directories(${stb_image_SOURCE_DIR})
 
 # Lista de exemplos/exercícios para criar executáveis
 set(EXERCISES
@@ -63,14 +64,20 @@ endif()
 foreach(EXERCISE ${EXERCISES})
     get_filename_component(EXE_NAME ${EXERCISE} NAME)
 
-    # Ajuste: inclui gl_utils.cpp se ele existir como fonte separada.
-    set(SOURCES src/${EXERCISE}.cpp ${GLAD_C_FILE})
+    # Ajuste: inclui Sprite.cpp automaticamente
+    set(SOURCES src/${EXERCISE}.cpp src/AtividadeVivencial2/Sprite.cpp ${GLAD_C_FILE})
 
     # Se quiser manter gl_utils.cpp separado, descomente a linha abaixo
     list(APPEND SOURCES src/AtividadeVivencial2/gl_utils.cpp)
 
     add_executable(${EXE_NAME} ${SOURCES})
 
-    target_include_directories(${EXE_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include/glad ${glm_SOURCE_DIR} ${stb_image_SOURCE_DIR})
+    target_include_directories(${EXE_NAME} PRIVATE 
+        ${CMAKE_SOURCE_DIR}/include/glad 
+        ${glm_SOURCE_DIR} 
+        ${stb_image_SOURCE_DIR}
+        ${CMAKE_SOURCE_DIR}/src/AtividadeVivencial2
+    )
+
     target_link_libraries(${EXE_NAME} glfw ${OPENGL_LIBS} glm::glm)
 endforeach()
