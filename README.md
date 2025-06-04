@@ -9,8 +9,6 @@ Para facilitar a compilação e execução, fornecemos um script .bat que automa
 
 ![image](https://github.com/user-attachments/assets/c75dd07f-e1f1-47de-a9da-1b1cd1c46849)
 
-Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
-
 ## ⚠️ **IMPORTANTE: Baixar a GLAD Manualmente**
 Para que o projeto funcione corretamente, é necessário **baixar a GLAD manualmente** utilizando o **GLAD Generator**.
 
