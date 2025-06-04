@@ -1,6 +1,6 @@
-^C:\USERS\RAIAN\ONEDRIVE\DESKTOP\TEXTURAS - COPIA\BUILD\CMAKEFILES\F8FB30D8DE05F6E21FD1E8B4EA8CCEFC\GENERATE.STAMP.RULE
+^C:\USERS\RAIAN\ONEDRIVE\DESKTOP\TEXTURAS\BUILD\CMAKEFILES\FC693BDE7D955254DC4F558BCAA63B74\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/raian/OneDrive/Desktop/Texturas - Copia" "-BC:/Users/raian/OneDrive/Desktop/Texturas - Copia/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/MultiTexturedSprites.sln"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/raian/OneDrive/Desktop/Texturas -BC:/Users/raian/OneDrive/Desktop/Texturas/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/raian/OneDrive/Desktop/Texturas/build/MultiTexturedSprites.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

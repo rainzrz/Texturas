@@ -24,9 +24,9 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.8+a7a4d5af0 para .NET Framework
-      Compila├º├úo de 04/06/2025 00:20:50 iniciada.
+      Compila├º├úo de 04/06/2025 00:41:50 iniciada.
       
-      Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
         Criando o diret├│rio "Debug\\".
         A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
@@ -39,7 +39,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
       
       Compila├º├úo com ├¬xito.
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:00.58
+      Tempo Decorrido 00:00:00.44
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
+        C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.14.8+a7a4d5af0 para .NET Framework
-      Compila├º├úo de 04/06/2025 00:20:51 iniciada.
+      Compila├º├úo de 04/06/2025 00:41:51 iniciada.
       
-      Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
         Criando o diret├│rio "Debug\\".
         A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
@@ -94,7 +94,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +102,13 @@ events:
       FinalizeBuildStatus:
         Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
       
       Compila├º├úo com ├¬xito.
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:00.58
+      Tempo Decorrido 00:00:00.42
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-w99uvh"
-      binary: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-w99uvh"
+      source: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-pyggwo"
+      binary: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-pyggwo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -141,40 +141,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-w99uvh'
+        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-pyggwo'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_48ec9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd7f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.8+a7a4d5af0 para .NET Framework
-        Compila├º├úo de 04/06/2025 00:20:52 iniciada.
+        Compila├º├úo de 04/06/2025 00:41:52 iniciada.
         
-        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w99uvh\\cmTC_48ec9.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyggwo\\cmTC_dd7f8.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_48ec9.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_dd7f8.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w99uvh\\Debug\\".
-          Criando o diret├│rio "cmTC_48ec9.dir\\Debug\\cmTC_48ec9.tlog\\".
+          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyggwo\\Debug\\".
+          Criando o diret├│rio "cmTC_dd7f8.dir\\Debug\\cmTC_dd7f8.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_48ec9.dir\\Debug\\cmTC_48ec9.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_48ec9.dir\\Debug\\cmTC_48ec9.tlog\\unsuccessfulbuild".
+          Criando "cmTC_dd7f8.dir\\Debug\\cmTC_dd7f8.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_dd7f8.dir\\Debug\\cmTC_dd7f8.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48ec9.dir\\Debug\\\\" /Fd"cmTC_48ec9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd7f8.dir\\Debug\\\\" /Fd"cmTC_dd7f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35207.1 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48ec9.dir\\Debug\\\\" /Fd"cmTC_48ec9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd7f8.dir\\Debug\\\\" /Fd"cmTC_dd7f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w99uvh\\Debug\\cmTC_48ec9.exe" /INCREMENTAL /ILK:"cmTC_48ec9.dir\\Debug\\cmTC_48ec9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-w99uvh/Debug/cmTC_48ec9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-w99uvh/Debug/cmTC_48ec9.lib" /MACHINE:X64  /machine:x64 cmTC_48ec9.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_48ec9.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w99uvh\\Debug\\cmTC_48ec9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyggwo\\Debug\\cmTC_dd7f8.exe" /INCREMENTAL /ILK:"cmTC_dd7f8.dir\\Debug\\cmTC_dd7f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-pyggwo/Debug/cmTC_dd7f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-pyggwo/Debug/cmTC_dd7f8.lib" /MACHINE:X64  /machine:x64 cmTC_dd7f8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_dd7f8.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyggwo\\Debug\\cmTC_dd7f8.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_48ec9.dir\\Debug\\cmTC_48ec9.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_48ec9.dir\\Debug\\cmTC_48ec9.tlog\\cmTC_48ec9.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w99uvh\\cmTC_48ec9.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_dd7f8.dir\\Debug\\cmTC_dd7f8.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_dd7f8.dir\\Debug\\cmTC_dd7f8.tlog\\cmTC_dd7f8.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyggwo\\cmTC_dd7f8.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:00.55
+        Tempo Decorrido 00:00:00.43
         
       exitCode: 0
   -
@@ -214,8 +214,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-onzvqt"
-      binary: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-onzvqt"
+      source: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-jvpv4g"
+      binary: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-jvpv4g"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -229,40 +229,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-onzvqt'
+        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-jvpv4g'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4c90a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8b053.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.8+a7a4d5af0 para .NET Framework
-        Compila├º├úo de 04/06/2025 00:20:53 iniciada.
+        Compila├º├úo de 04/06/2025 00:41:53 iniciada.
         
-        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onzvqt\\cmTC_4c90a.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jvpv4g\\cmTC_8b053.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_4c90a.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_8b053.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onzvqt\\Debug\\".
-          Criando o diret├│rio "cmTC_4c90a.dir\\Debug\\cmTC_4c90a.tlog\\".
+          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jvpv4g\\Debug\\".
+          Criando o diret├│rio "cmTC_8b053.dir\\Debug\\cmTC_8b053.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_4c90a.dir\\Debug\\cmTC_4c90a.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_4c90a.dir\\Debug\\cmTC_4c90a.tlog\\unsuccessfulbuild".
+          Criando "cmTC_8b053.dir\\Debug\\cmTC_8b053.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_8b053.dir\\Debug\\cmTC_8b053.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4c90a.dir\\Debug\\\\" /Fd"cmTC_4c90a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8b053.dir\\Debug\\\\" /Fd"cmTC_8b053.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35207.1 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4c90a.dir\\Debug\\\\" /Fd"cmTC_4c90a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8b053.dir\\Debug\\\\" /Fd"cmTC_8b053.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onzvqt\\Debug\\cmTC_4c90a.exe" /INCREMENTAL /ILK:"cmTC_4c90a.dir\\Debug\\cmTC_4c90a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-onzvqt/Debug/cmTC_4c90a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-onzvqt/Debug/cmTC_4c90a.lib" /MACHINE:X64  /machine:x64 cmTC_4c90a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4c90a.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onzvqt\\Debug\\cmTC_4c90a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jvpv4g\\Debug\\cmTC_8b053.exe" /INCREMENTAL /ILK:"cmTC_8b053.dir\\Debug\\cmTC_8b053.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-jvpv4g/Debug/cmTC_8b053.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-jvpv4g/Debug/cmTC_8b053.lib" /MACHINE:X64  /machine:x64 cmTC_8b053.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8b053.vcxproj -> C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jvpv4g\\Debug\\cmTC_8b053.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_4c90a.dir\\Debug\\cmTC_4c90a.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_4c90a.dir\\Debug\\cmTC_4c90a.tlog\\cmTC_4c90a.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onzvqt\\cmTC_4c90a.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_8b053.dir\\Debug\\cmTC_8b053.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_8b053.dir\\Debug\\cmTC_8b053.tlog\\cmTC_8b053.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jvpv4g\\cmTC_8b053.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:00.60
+        Tempo Decorrido 00:00:00.42
         
       exitCode: 0
   -
@@ -308,8 +308,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-7314sq"
-      binary: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-7314sq"
+      source: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-4baie8"
+      binary: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-4baie8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -322,40 +322,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-7314sq'
+        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-4baie8'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_135d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0bdd3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.8+a7a4d5af0 para .NET Framework
-        Compila├º├úo de 04/06/2025 00:20:54 iniciada.
+        Compila├º├úo de 04/06/2025 00:41:53 iniciada.
         
-        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\cmTC_135d5.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\cmTC_0bdd3.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_135d5.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_0bdd3.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\Debug\\".
-          Criando o diret├│rio "cmTC_135d5.dir\\Debug\\cmTC_135d5.tlog\\".
+          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\Debug\\".
+          Criando o diret├│rio "cmTC_0bdd3.dir\\Debug\\cmTC_0bdd3.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_135d5.dir\\Debug\\cmTC_135d5.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_135d5.dir\\Debug\\cmTC_135d5.tlog\\unsuccessfulbuild".
+          Criando "cmTC_0bdd3.dir\\Debug\\cmTC_0bdd3.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_0bdd3.dir\\Debug\\cmTC_0bdd3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_135d5.dir\\Debug\\\\" /Fd"cmTC_135d5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bdd3.dir\\Debug\\\\" /Fd"cmTC_0bdd3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35207.1 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_135d5.dir\\Debug\\\\" /Fd"cmTC_135d5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bdd3.dir\\Debug\\\\" /Fd"cmTC_0bdd3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\src.c"
           src.c
-        C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\src.c(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\cmTC_135d5.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\cmTC_135d5.vcxproj" (destinos padr├úo) -- FALHA.
+        C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\src.c(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\cmTC_0bdd3.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\cmTC_0bdd3.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\cmTC_135d5.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\cmTC_0bdd3.vcxproj" (destino padr├úo) (1) ->
         (ClCompile destino) -> 
-          C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\src.c(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7314sq\\cmTC_135d5.vcxproj]
+          C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\src.c(1,10): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'pthread.h': No such file or directory [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4baie8\\cmTC_0bdd3.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:00.34
+        Tempo Decorrido 00:00:00.26
         
       exitCode: 1
   -
@@ -372,8 +372,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-sme19g"
-      binary: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-sme19g"
+      source: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-u94xyf"
+      binary: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-u94xyf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -386,42 +386,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-sme19g'
+        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-u94xyf'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_66ce5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_82943.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.8+a7a4d5af0 para .NET Framework
-        Compila├º├úo de 04/06/2025 00:20:55 iniciada.
+        Compila├º├úo de 04/06/2025 00:41:54 iniciada.
         
-        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\cmTC_66ce5.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\cmTC_82943.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_66ce5.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_82943.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\Debug\\".
-          Criando o diret├│rio "cmTC_66ce5.dir\\Debug\\cmTC_66ce5.tlog\\".
+          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\Debug\\".
+          Criando o diret├│rio "cmTC_82943.dir\\Debug\\cmTC_82943.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_66ce5.dir\\Debug\\cmTC_66ce5.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_66ce5.dir\\Debug\\cmTC_66ce5.tlog\\unsuccessfulbuild".
+          Criando "cmTC_82943.dir\\Debug\\cmTC_82943.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_82943.dir\\Debug\\cmTC_82943.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66ce5.dir\\Debug\\\\" /Fd"cmTC_66ce5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82943.dir\\Debug\\\\" /Fd"cmTC_82943.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35207.1 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66ce5.dir\\Debug\\\\" /Fd"cmTC_66ce5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82943.dir\\Debug\\\\" /Fd"cmTC_82943.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\Debug\\cmTC_66ce5.exe" /INCREMENTAL /ILK:"cmTC_66ce5.dir\\Debug\\cmTC_66ce5.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-sme19g/Debug/cmTC_66ce5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-sme19g/Debug/cmTC_66ce5.lib" /MACHINE:X64  /machine:x64 cmTC_66ce5.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\cmTC_66ce5.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\cmTC_66ce5.vcxproj" (destinos padr├úo) -- FALHA.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\Debug\\cmTC_82943.exe" /INCREMENTAL /ILK:"cmTC_82943.dir\\Debug\\cmTC_82943.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-u94xyf/Debug/cmTC_82943.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-u94xyf/Debug/cmTC_82943.lib" /MACHINE:X64  /machine:x64 cmTC_82943.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\cmTC_82943.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\cmTC_82943.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\cmTC_66ce5.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\cmTC_82943.vcxproj" (destino padr├úo) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sme19g\\cmTC_66ce5.vcxproj]
+          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthreads.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u94xyf\\cmTC_82943.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:00.45
+        Tempo Decorrido 00:00:00.34
         
       exitCode: 1
   -
@@ -438,8 +438,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-ihorol"
-      binary: "C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-ihorol"
+      source: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-onpqiy"
+      binary: "C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-onpqiy"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -452,42 +452,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-ihorol'
+        Change Dir: 'C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-onpqiy'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80928.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b228.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.14.8+a7a4d5af0 para .NET Framework
-        Compila├º├úo de 04/06/2025 00:20:56 iniciada.
+        Compila├º├úo de 04/06/2025 00:41:55 iniciada.
         
-        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\cmTC_80928.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\cmTC_9b228.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_80928.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_9b228.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\Debug\\".
-          Criando o diret├│rio "cmTC_80928.dir\\Debug\\cmTC_80928.tlog\\".
+          Criando o diret├│rio "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\Debug\\".
+          Criando o diret├│rio "cmTC_9b228.dir\\Debug\\cmTC_9b228.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_80928.dir\\Debug\\cmTC_80928.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_80928.dir\\Debug\\cmTC_80928.tlog\\unsuccessfulbuild".
+          Criando "cmTC_9b228.dir\\Debug\\cmTC_9b228.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_9b228.dir\\Debug\\cmTC_9b228.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80928.dir\\Debug\\\\" /Fd"cmTC_80928.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b228.dir\\Debug\\\\" /Fd"cmTC_9b228.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.44.35207.1 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80928.dir\\Debug\\\\" /Fd"cmTC_80928.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b228.dir\\Debug\\\\" /Fd"cmTC_9b228.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\Debug\\cmTC_80928.exe" /INCREMENTAL /ILK:"cmTC_80928.dir\\Debug\\cmTC_80928.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-ihorol/Debug/cmTC_80928.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/CMakeScratch/TryCompile-ihorol/Debug/cmTC_80928.lib" /MACHINE:X64  /machine:x64 cmTC_80928.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\cmTC_80928.vcxproj]
-        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\cmTC_80928.vcxproj" (destinos padr├úo) -- FALHA.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\Debug\\cmTC_9b228.exe" /INCREMENTAL /ILK:"cmTC_9b228.dir\\Debug\\cmTC_9b228.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-onpqiy/Debug/cmTC_9b228.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/raian/OneDrive/Desktop/Texturas/build/CMakeFiles/CMakeScratch/TryCompile-onpqiy/Debug/cmTC_9b228.lib" /MACHINE:X64  /machine:x64 cmTC_9b228.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\cmTC_9b228.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\cmTC_9b228.vcxproj" (destinos padr├úo) -- FALHA.
         
         FALHA da compila├º├úo.
         
-        "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\cmTC_80928.vcxproj" (destino padr├úo) (1) ->
+        "C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\cmTC_9b228.vcxproj" (destino padr├úo) (1) ->
         (Link destino) -> 
-          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas - Copia\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ihorol\\cmTC_80928.vcxproj]
+          LINK : fatal error LNK1104: n├úo ├® poss├¡vel abrir o arquivo 'pthread.lib' [C:\\Users\\raian\\OneDrive\\Desktop\\Texturas\\build\\CMakeFiles\\CMakeScratch\\TryCompile-onpqiy\\cmTC_9b228.vcxproj]
         
             0 Aviso(s)
             1 Erro(s)
         
-        Tempo Decorrido 00:00:00.45
+        Tempo Decorrido 00:00:00.36
         
       exitCode: 1
 ...
