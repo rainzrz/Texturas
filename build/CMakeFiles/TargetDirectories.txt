@@ -1,0 +1,3 @@
+C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/MultiTexturedSprites.dir
+C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/raian/OneDrive/Desktop/Texturas - Copia/build/CMakeFiles/ZERO_CHECK.dir

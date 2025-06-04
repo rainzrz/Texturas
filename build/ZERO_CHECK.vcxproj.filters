@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\raian\OneDrive\Desktop\Texturas - Copia\build\CMakeFiles\f8fb30d8de05f6e21fd1e8b4ea8ccefc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{381F9EF8-F032-3D93-B418-C27600B07008}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
