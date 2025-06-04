@@ -2,8 +2,8 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
-#include <fstream>    // <-- para std::ifstream
-#include <string>     // <-- para std::string
+#include <fstream>
+#include <string>
 #include <vector>
 
 #define STB_IMAGE_IMPLEMENTATION
@@ -13,12 +13,9 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-// Função para checar compilação/link de shader
+// Funções auxiliares
 void checkCompileErrors(unsigned int shader, std::string type);
-
-// Função para carregar shader a partir de arquivo
 std::string readFile(const char* filepath);
-
 unsigned int loadTexture(const char* path);
 
 const unsigned int SCR_WIDTH = 800;
@@ -40,11 +37,13 @@ unsigned int indices[] = {
 
 int main()
 {
+    // Inicializa GLFW
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
+    // Cria janela
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Multi Textured Sprites", NULL, NULL);
     if (!window)
     {
@@ -54,6 +53,7 @@ int main()
     }
     glfwMakeContextCurrent(window);
 
+    // Inicializa GLAD
     if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
     {
         std::cout << "Failed to initialize GLAD\n";
@@ -62,28 +62,27 @@ int main()
 
     glViewport(0, 0, SCR_WIDTH, SCR_HEIGHT);
 
-    // Build shaders
+    // Habilita blending
+glEnable(GL_BLEND);
+glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    // Compila shaders
     std::string vertexCode = readFile("src/shaders.vs");
     std::string fragmentCode = readFile("src/shaders.fs");
-
     const char* vShaderCode = vertexCode.c_str();
     const char* fShaderCode = fragmentCode.c_str();
 
-    unsigned int vertexShader, fragmentShader, shaderProgram;
-    // vertex shader
-    vertexShader = glCreateShader(GL_VERTEX_SHADER);
+    unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vertexShader, 1, &vShaderCode, NULL);
     glCompileShader(vertexShader);
     checkCompileErrors(vertexShader, "VERTEX");
 
-    // fragment shader
-    fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+    unsigned int fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
     glShaderSource(fragmentShader, 1, &fShaderCode, NULL);
     glCompileShader(fragmentShader);
     checkCompileErrors(fragmentShader, "FRAGMENT");
 
-    // shader program
-    shaderProgram = glCreateProgram();
+    unsigned int shaderProgram = glCreateProgram();
     glAttachShader(shaderProgram, vertexShader);
     glAttachShader(shaderProgram, fragmentShader);
     glLinkProgram(shaderProgram);
@@ -92,13 +91,14 @@ int main()
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
-    // Configurar VAO, VBO, EBO
+    // Setup buffers e arrays
     unsigned int VBO, VAO, EBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
     glGenBuffers(1, &EBO);
 
     glBindVertexArray(VAO);
+
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
@@ -112,19 +112,20 @@ int main()
     glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
-    // Load textures
+    // Carrega texturas
+    unsigned int backgroundTexture = loadTexture("textures/background.png");
+
     std::vector<unsigned int> textures;
     textures.push_back(loadTexture("textures/texture1.png"));
     textures.push_back(loadTexture("textures/texture2.png"));
     textures.push_back(loadTexture("textures/texture3.png"));
 
-    // Projeção ortográfica
+    // Configura projeção ortográfica
     glm::mat4 projection = glm::ortho(0.0f, (float)SCR_WIDTH,
                                       0.0f, (float)SCR_HEIGHT,
                                       -1.0f, 1.0f);
 
     glUseProgram(shaderProgram);
-    glUniform1i(glGetUniformLocation(shaderProgram, "texture1"), 0);
 
     while (!glfwWindowShouldClose(window))
     {
@@ -133,10 +134,27 @@ int main()
 
         glBindVertexArray(VAO);
 
+        // 1. Desenha background
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, backgroundTexture);
+        glUniform1i(glGetUniformLocation(shaderProgram, "texture1"), 0);
+
+        glm::mat4 model = glm::mat4(1.0f);
+        // Centraliza o quad na tela
+        model = glm::translate(model, glm::vec3(SCR_WIDTH / 2.0f, SCR_HEIGHT / 2.0f, 0.0f));
+        // Escala para cobrir toda a tela
+        model = glm::scale(model, glm::vec3((float)SCR_WIDTH, (float)SCR_HEIGHT, 1.0f));
+
+        glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
+
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+        // 2. Desenha as 3 texturas menores na frente
         for (int i = 0; i < (int)textures.size(); i++)
         {
-            glActiveTexture(GL_TEXTURE0);
             glBindTexture(GL_TEXTURE_2D, textures[i]);
+            glUniform1i(glGetUniformLocation(shaderProgram, "texture1"), 0);
 
             glm::mat4 model = glm::mat4(1.0f);
             model = glm::translate(model, glm::vec3(150.0f + i * 200.0f, SCR_HEIGHT / 2.0f, 0.0f));
@@ -152,6 +170,7 @@ int main()
         glfwPollEvents();
     }
 
+    // Limpeza
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
     glDeleteBuffers(1, &EBO);
@@ -159,6 +178,8 @@ int main()
     glfwTerminate();
     return 0;
 }
+
+// --- Funções auxiliares abaixo ---
 
 std::string readFile(const char* filepath)
 {
@@ -220,11 +241,11 @@ unsigned int loadTexture(const char* path)
             format = GL_RGBA;
 
         glBindTexture(GL_TEXTURE_2D, textureID);
-        glTexImage2D(GL_TEXTURE_2D, 0, format, width, height,
-                     0, format, GL_UNSIGNED_BYTE, data);
+        glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
         glGenerateMipmap(GL_TEXTURE_2D);
 
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+        // Filtros de textura
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);	
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
