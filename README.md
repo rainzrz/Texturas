@@ -11,9 +11,9 @@ cd ~seudiretório\V1_ProcessamentoGrafico\
 Remove-Item -Recurse -Force .\build\
 mkdir build
 cd build
-cmake ..
+cmake .. -DCMAKE_TOOLCHAIN_FILE="C:/Users/raian/OneDrive/Desktop/vcpkg/scripts/buildsystems/vcpkg.cmake" -A x64
 cmake --build .
-.\Debug\ParallaxScrolling.exe
+.\build\Debug\MultiTexturedSprites.exe
 ```
 
 Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
