@@ -1,0 +1,1 @@
+.\build\Debug\MultiTexturedSprites.exe
